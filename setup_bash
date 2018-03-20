@@ -5,3 +5,5 @@ touch ~/.qmk/QMK
 echo 'g++ $1 && ./a.out < $2 > out && cat out;' > ~/.qmk/QMK
 echo 'alias qmk="~/.qmk/QMK"' >> ~/.bashrc
 chmod a+x ~/.qmk/QMK
+
+echo 'finished!'
